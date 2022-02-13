@@ -1,0 +1,133 @@
+
+   body {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    border-top: 10px solid #333;
+ }
+
+ P {
+     line-height: 20px;
+ }
+
+ a {
+     text-decoration: none;
+ }
+
+
+ .hidden {
+    display: none;
+ }
+
+
+ .roundShadow
+ {
+     border-radius: 7px;
+     box-shadow: 0px 0px 5px rgba(50,50,50,0.4);
+ }
+
+
+ #siteContainer {
+     margin: 0 auto;
+     width: 960px;
+ }
+
+ .mainHeader {
+     margin-top: 40px;
+     height:  100px;
+ }
+
+ .mainHeader h2{
+    margin-top: 2.5em;
+    text-align: center;
+    margin-bottom: -2em;
+    margin-right: 7em;
+    font-size: 3em;
+}
+ 
+
+ .serviceInfo
+ {
+     margin-top: 40px;
+     border-bottom: solid 1px #fbe647;
+     padding-bottom: 40px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     width: 960px;
+ }
+
+ .serviceInfo h2
+ {
+     font-family: 'Josefin Sans', sans-serif;
+     color: #fff;
+     font-size: 20px;
+     margin-top: 20px;
+     margin-bottom: 10px;
+ }
+
+ .serviceInfo img
+ {
+     opacity: 1;
+     -webkit-transition: all 0.3s ease-in;
+     -moz-transition: all 0.3s ease-in;
+     -o-transition: all 0.3s ease-in;
+     transition: all 0.3s ease-in;
+ }
+
+ .serviceInfo img:hover
+ {
+    opacity: 0.6; 
+ }
+
+ .productDesc
+ {
+     width: 304px;
+ }
+
+ 
+.head, .main > *, .foot {
+    display: grid;
+       grid-template-columns: 1fr repeat(2, minmax(auto, 40em)) 1fr;
+ }
+
+ .hero {
+    margin: 0 0;
+ }
+
+ .hero-img img {
+    width: 100%;
+ }
+
+ .hero-img {
+    display: grid;
+    grid-column: span 4;
+    margin-top: 2em;
+ }
+
+ .hero-img > * {
+    grid-column: 1;
+    grid-row: 1;
+ }
+
+
+/*-------------------*/
+
+.article {
+    margin: 5em;
+    line-height: 5px;
+}
+
+.article h2 {
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 2em;
+}
+
+.article p {
+    font-size: 14px;
+    font-weight: 400;
+}
